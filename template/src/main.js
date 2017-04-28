@@ -4,11 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// css
 import normalize from 'normalize.css'
-
-Vue.config.productionTip = false
-
+import fontAwesome from 'font-awesome-webpack'
 Vue.use(normalize)
+Vue.use(fontAwesome)
+
+// vue setting
+Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({

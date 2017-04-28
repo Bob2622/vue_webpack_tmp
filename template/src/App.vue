@@ -1,12 +1,7 @@
 <template>
-    <div id="app">
-        <img src="./assets/logo.png">
-        {{#router}}
-        <router-view></router-view>
-        {{else}}
-        <hello></hello>
-        {{/router}}
-    </div>
+<div id="app">
+    <router-view></router-view>
+</div>
 </template>
 
 <script>

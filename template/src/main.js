@@ -6,7 +6,7 @@ import router from './router'
 
 // css
 import normalize from 'normalize.css'
-import fontAwesome from 'font-awesome-webpack'
+import fontAwesome from 'font-awesome-webpack!./libs/font_awesome/font-awesome.config.js'
 Vue.use(normalize)
 Vue.use(fontAwesome)
 
